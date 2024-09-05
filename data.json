@@ -14,7 +14,7 @@
         "ip": "8.8.8.8"
       }
     },
-     "sunil": {
+    "sunil": {
       "roles": ["guest"],
       "location": {
         "country": "US",
@@ -77,14 +77,29 @@
       }
     ],
     "guest": [
-     {
-       "action": "read",
-       "type": "cat"
-     },
-     {
-       "action": "read",
-       "type": "finance"
-     }
+      {
+        "action": "read",
+        "type": "cat"
+      },
+      {
+        "action": "read",
+        "type": "finance"
+      }
+    ]
+  },
+  "entitlement_assignments": {
+    "bob": [
+      {
+        "entitlement": {
+          "domain": "cphi.com",
+          "product": {
+            "type": "webinar",
+            "id": "web123"
+          },
+          "userID": "bob",
+          "exp": "2024-11-11"
+        }
+      }
     ]
   }
 }
