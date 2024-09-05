@@ -1,0 +1,17 @@
+{
+  "entitlement_assignments": {
+    "bob": [
+      {
+        "entitlement": {
+          "domain": "cphi.com",
+          "product": {
+            "type": "webinar",
+            "id": "web123"
+          },
+          "userID": "bob",
+          "exp": "2024-11-11"
+        }
+      }
+    ]
+  }
+}
